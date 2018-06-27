@@ -23,6 +23,7 @@ module RubyCapstoneModule1
     # Uncommented config.generators line will be the default
     config.generators { | g | g.orm :active_record}
     #config.generators { | g | g.orm :mongoid}
+
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
   end
