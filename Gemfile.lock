@@ -73,9 +73,6 @@ GEM
     multi_xml (0.6.0)
     nokogiri (1.8.3)
       mini_portile2 (~> 2.3.0)
-<<<<<<< HEAD
-    pg (0.21.0)
-=======
     origin (2.3.1)
     pg (0.21.0)
     pry (0.11.3)
@@ -87,7 +84,6 @@ GEM
     pry-rails (0.3.6)
       pry (>= 0.10.4)
     puma (3.11.4)
->>>>>>> 990c7ba91eede930260f6e3c90483c1d38138e95
     rack (1.6.10)
     rack-cors (0.4.1)
     rack-test (0.6.3)
@@ -160,9 +156,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-  pg (~> 0.15)
-=======
   byebug (~> 9.0, >= 9.0.6)
   httparty (~> 0.14, >= 0.14.0)
   jbuilder
@@ -172,7 +165,6 @@ DEPENDENCIES
   pry-rails (~> 0.3, >= 0.3.4)
   puma
   rack-cors (~> 0.4, >= 0.4.0)
->>>>>>> 990c7ba91eede930260f6e3c90483c1d38138e95
   rails (= 4.2.8)
   rails-api (~> 0.4, >= 0.4.0)
   rails_12factor (~> 0.0, >= 0.0.3)
