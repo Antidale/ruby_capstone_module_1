@@ -5,7 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-City.all.destroy
-State.all.destroy
-City.create(name: "Baltimore")
-State.create(name: "Maryland")
+City.destroy_all
+State.destroy_all
+["Baltimore", "Chicago", "Madison", "Portland"].each do | city |
+  City.create!(name: city)
+end
+
+["Maryland", "Illinois", "Wisconsin", "Oregon"].each do | state |
+  State.create(name: state)
+end
+
